@@ -4,7 +4,6 @@ import axios from "axios";
 import {ElLoading, ElMessage} from "element-plus";
 
 const baseURL = 'http://127.0.0.1:8100'
-// const baseURL = 'http://8.130.116.227:8100'
 const service = axios.create({
     baseURL: baseURL,
     timeout: 20000 // 请求超时时间
